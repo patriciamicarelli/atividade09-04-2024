@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de Datas</title>
+</head>
+<body>
+    <h2>Manipulação de Datas</h2>
+    <label for="data1">Data 1 (dd/mm/aaaa):</label>
+    <input type="date" id="data1" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/aaaa"><br><br>
+    <label for="data2">Data 2 (dd/mm/aaaa):</label>
+    <input type="date" id="data2" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/aaaa"><br><br>
+    <button onclick="executarOperacoes()">Executar Operações</button>
+    <p id="resultado"></p>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
